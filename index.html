@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Text Compression Tree</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <h1>Compression Tree Generator</h1>
+  <textarea id="inputText" placeholder="Enter your text here..."></textarea>
+  <br>
+  <label for="algorithm">Choose Algorithm:</label>
+  <select id="algorithm">
+    <option value="huffman">Huffman</option>
+    <option value="shannon-fano">Shannon-Fano</option>
+  </select>
+  <br>
+  <button onclick="compress()">Generate Tree</button>
+
+  <div class="output" id="output"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
